@@ -1,0 +1,374 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+}
+
+/* Titres parties*/
+h3 {
+	padding-top: 25px;
+}
+
+h3 span {
+	margin-left: 50px;
+	border-bottom: 4px solid #F47804;
+	padding-bottom: 0.5px;
+}
+
+/* Barre de navigation*/
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0 auto;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background-color: white;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .05);
+}
+
+li {
+	margin: 0 0 0 20px;
+	text-align: right;
+	font-size: 13px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin-top: 15px;
+	margin-right: 50px;
+}
+
+header h2 span {
+	color: #F47804;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+header h2 {
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+/*Fin barre de navigation*/
+/* Présentation*/
+.home {
+	background-color: #f8f9f9;
+	margin-top: 40px;
+}
+
+.home p {
+	font-family: 'Montserrat';
+	margin: 15px 0 0 50px;
+	padding-bottom: 30px;
+	margin-right: 500px;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 21px;
+}
+
+h1 {
+	margin: 9px 0 0px 45px;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+.home h2 {
+	margin-left: 49px;
+	font-size: 26px;
+	color: #F47804;
+	opacity: 1;
+	padding-top: 2px;
+}
+
+/*Projet*/
+.box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+.box7 {
+	background-color: #f8f9f9
+}
+
+.box article, div{
+
+	width: calc((100% - 50px) / 2);
+	margin-bottom: 20px;
+	overflow: hidden;
+	
+	transition: all 0.5s ease;
+}
+
+
+.box img {
+	height: 100%;
+	display: block;
+	max-width: 100%;
+}
+
+
+
+
+
+/* fin Projet*/
+/*Partie competences*/
+#compet {
+	background-color: #f5f5f5;
+}
+
+.boxp {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+}
+
+.boxp p {
+	text-align: justify;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.icones img {
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+}
+
+/*contact*/
+footer li {
+	text-align: center;
+	
+}
+
+footer ul {
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s;
+}
+
+a:hover {
+	transition: 0.2s;
+	border-bottom: 3px solid #F47804;
+}
+footer{
+	background-color: #f5f5f5;
+}
+
+@media screen and (max-width:1981px) {
+	.home p {
+		margin-right: 1300px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width:1601px) {
+	.home p {
+		margin-right: 50%;
+	}
+}
+
+
+@media screen and (max-width:769px) {
+	.icones img {
+		padding-bottom: 100px;
+	}
+
+	.icones {
+		margin-left: 230px;
+
+	}
+
+	.home p {
+		margin-right: 300px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+
+	header h2 {
+		margin-left: 30px;
+	}
+
+	li {
+		font-size: 10px;
+		margin-left: 10px;
+	}
+
+	nav ul {
+		margin-right: 30px;
+	}
+
+
+	.home p {
+		font-size: 12px;
+		margin-left: 30px;
+		margin-right: 30px
+	}
+
+	.home h1 {
+		margin-left: 30px;
+	}
+
+	.home h2 {
+		margin-left: 30px;
+	}
+
+
+	.box article {
+		width: 100%;
+	}
+
+
+	.boxp {
+		padding-left: 30px;
+	}
+
+
+	.icones {
+		margin-left: 60px;
+	}
+
+
+	#contact li {
+		font-size: 14px;
+	}
+
+
+	h3 span {
+		margin-left: 30px;
+	}
+
+
+}
+
+@media screen and (max-width:376px) {
+
+	header h2 {
+		margin-left: 30px;
+	}
+
+	li {
+		font-size: 10px;
+		margin-left: 10px;
+	}
+
+	nav ul {
+		margin-right: 30px;
+	}
+
+
+
+	.home p {
+		font-size: 12px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.home h1 {
+		margin-left: 30px;
+	}
+
+	.home h2 {
+		margin-left: 30px;
+	}
+
+
+	.box article {
+		width: 100%;
+	}
+
+
+	.boxp {
+		padding-left: 30px;
+	}
+
+	.icones img {
+		padding-bottom: 30px;
+	}
+
+	.icones {
+		margin-left: 60px;
+	}
+
+
+
+	#contact li {
+		font-size: 14px;
+	}
+
+
+	h3 span {
+		margin-left: 30px;
+	}
+
+
+}
+
+@media screen and (max-width:344px) {
+	li {
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	li {
+		font-size: 8px;
+	}
+
+	.box article {
+		width: 100%;
+	}
+
+	.icones img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media screen and (max-width:311px) {
+	li {
+		font-size: 6px;
+	}
+
+	.home p {
+		margin-right: 20px;
+	}
+
+}
